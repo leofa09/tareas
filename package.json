@@ -1,0 +1,25 @@
+{
+  "name": "tareas",
+  "version": "1.0.0",
+  "description": "lista de tareas",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leofa09/tareas.git"
+  },
+  "keywords": [
+    "l"
+  ],
+  "author": "leonardo florido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leofa09/tareas/issues"
+  },
+  "homepage": "https://github.com/leofa09/tareas#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

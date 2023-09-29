@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Tareas</h1>
+        <div class="task-form">
+            <input type="text" id="task" placeholder="Nueva tarea">
+            <input type="number" id="priority" placeholder="Prioridad (1-5)">
+            <textarea id="comment" placeholder="Añadir comentario"></textarea>
+            <button onclick="addTask()">Añadir Tarea</button>
+        </div>
+        <div class="task-list" id="taskList">
+            <!-- Aquí se agregarán las tareas -->
+        </div>
+    </div>
+
+    <div class="modal" id="confirmationModal">
+        <div class="modal-content">
+            <p>¿Estás seguro de que deseas realizar esta acción?</p>
+            <button id="confirmAction">Confirmar</button>
+            <button onclick="closeModal()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
